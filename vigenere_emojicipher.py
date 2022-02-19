@@ -51,8 +51,7 @@ def main():
     print("Welcome to Emoji Cipher!")
 
     while True:
-        option = input(
-            "Choose the operation ('e' for encryption, 'd' for decryption, 'q' for quit): ").lower()
+        option = input("Choose the operation ('e' for encryption, 'd' for decryption, 'q' for quit): ").lower()
 
         if option == 'e':
             message = input("Enter the message to encrypt: ")
