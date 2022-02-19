@@ -19,7 +19,7 @@ def generateKey(text, key):
     else:
         for i in range(len(text) - len(key)):
             key.append(key[i % len(key)])
-    return("" . join(key))
+    return("". join(key))
 
 
 def encrypt(plaintext, key):
@@ -51,7 +51,7 @@ def main():
     print("Welcome to Emoji Cipher!")
 
     while True:
-        option = input("Choose the operation ('e' for encryption, 'd' for decryption, 'q' for quit): ").lower()
+        option = input("\nChoose the operation ('e' for encryption, 'd' for decryption, 'q' for quit): ").lower()
 
         if option == 'e':
             message = input("Enter the message to encrypt: ")
